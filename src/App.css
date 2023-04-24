@@ -44,6 +44,33 @@
   justify-content: space-around;
 }
 
+.question {
+  width: 80%;
+  background: linear-gradient(#100241, black);
+  border: 2px solid white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.answers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.answer {
+  width: 40%;
+  text-align: center;
+  background: linear-gradient(#0e0124, #22074d);
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px 10px 20px 10px;
+}
+
 .trivia {
   height: 100%;
 }
